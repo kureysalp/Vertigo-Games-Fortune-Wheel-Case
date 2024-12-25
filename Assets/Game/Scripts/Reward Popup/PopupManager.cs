@@ -11,8 +11,8 @@ namespace VertigoGamesCase.Game.Scripts.Reward_Popup
         [SerializeField] private GameObject rewardPopup;
         [SerializeField] private GameObject bombPanel;
 
-        private Button giveUpButton;
-        private Button reviveUpButton;
+        [SerializeField] private Button giveUpButton;
+        [SerializeField] private Button reviveUpButton;
 
         [SerializeField] private float popupDuration;
 

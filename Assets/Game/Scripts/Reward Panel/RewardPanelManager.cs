@@ -14,7 +14,7 @@ namespace VertigoGamesCase.Game.Scripts.Reward_Panel
 
         [SerializeField] private GameObject rewardFeedbackPanel;
 
-        private Button exitButton;
+        [SerializeField]  private Button exitButton;
 
         private void Awake()
         {
